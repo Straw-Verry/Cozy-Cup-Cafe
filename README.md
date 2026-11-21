@@ -1,1 +1,3 @@
-# Personal Project: Cozy-Cup-Cafe
+# Personal Project: November 21, 2026
+
+Personal Project
