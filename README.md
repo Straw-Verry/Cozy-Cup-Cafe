@@ -1,1 +1,1 @@
-# Cozy-Cup-Cafe
+# Personal Project: Cozy-Cup-Cafe
