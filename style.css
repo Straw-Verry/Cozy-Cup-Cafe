@@ -1,9 +1,40 @@
 .nav {
-    background-color: #126bd8;
+    background-color: rgb(48, 48, 168);
+    color: white;
+    text-align: center;
+    padding: 0px;            
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+}
+
+.nav h2 {
+    margin: 0;
+    padding: 30px;       
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgb(2, 2, 137);
+}
+
+ul li {
+    float: left;
+    margin-right: 0;
+}
+
+ul li a {
+    display: block;
     color: white;
     text-align: center;
     padding: 5px;
+    text-decoration: none;
     font-family: "inter", sans-serif;
+    font-weight: bold;
     font-size: 18px;
 }
 
@@ -11,4 +42,119 @@ body {
     background-color: #90c9fc;
     padding: 0px;
     margin: 0px;
+}
+
+#home {
+    padding: 10px;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+#home h2 {
+    text-align: center;
+    color: white;
+    font-family: "inter", sans-serif;
+    padding: 8px;
+}
+
+#home p {
+    font-family: "courier", sans-serif;
+    font-size: 20px;
+}
+
+#menu {
+    background-color: rgb(48, 48, 168);
+    padding: 8px;
+}
+
+#menu h2 {
+    text-align: center;
+    color: white;
+    font-family: "inter", sans-serif;
+}
+
+.center td {
+    font-family: "courier", sans-serif;
+}
+
+table {
+    background-color: white;
+    width: 45%;
+    justify-content: center;
+}
+
+table, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactus h2 {
+    text-align: center;
+    font-family: "inter", sans-serif;
+    color: white;
+}
+
+#contactus label {
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#contactus input {
+    border-radius: 5px;
+    border-style: 1px solid black;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px
+}
+
+button {
+    background-color: rgb(2, 2, 137);
+    color: white;
+    padding: 6px;
+    width: 10%;
+    border-radius: 5px;
+    font-family: "inter", sans-serif;
+}
+
+footer {
+    background-color: rgb(48, 48, 168);
+    margin-bottom: -20px;
+}
+
+.media h2 {
+    color: white;
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    padding: 8px;
+}
+
+.media p {
+    font-family: "courier", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.media li, a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "courier", sans-serif;
+    font-weight: bold;
 }
