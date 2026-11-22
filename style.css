@@ -1,0 +1,14 @@
+.nav {
+    background-color: #126bd8;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: #90c9fc;
+    padding: 0px;
+    margin: 0px;
+}
